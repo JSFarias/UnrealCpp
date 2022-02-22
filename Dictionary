@@ -1,0 +1,9 @@
+//making a foreach
+
+TMap<int32, AActor*> exampleIntegerToActorMap;
+
+for (const TPair<int32, AActor*>& pair : exampleIntegerToActorMap)
+{
+  pair.Key;
+  pair.Value;
+}
